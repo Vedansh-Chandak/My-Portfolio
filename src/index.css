@@ -1,0 +1,150 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-cinzel: 'Cinzel', serif;
+  --font-cinzel-decorative: 'Cinzel Decorative', serif;
+  --font-montserrat: 'Montserrat', sans-serif;
+}
+
+.font-cinzel-decorative {
+  font-size: 23px;
+  font-weight: bold;
+  color: #e3ca85;
+}
+
+.font-cinzel {
+  font-size: 55px;
+  color: #e3ca85;
+}
+
+.font-montserrat {
+  font-size: 20px;
+  color: #ffffff;
+}
+
+a {
+  font-size: 22px;
+  font-weight: normal;
+  color: #ffffff;
+  --font-montserrat: 'Montserrat', sans-serif;
+  
+  
+}
+a:hover {
+  color: #e3ca85;
+  font-size: 22px;
+  font-weight: normal;
+  --font-montserrat: 'Montserrat', sans-serif;
+}
+
+body {
+  font-family: var(--font-montserrat); 
+  color: #ffffff;
+  
+}
+
+h1 {
+  font-family: 'Cinzel', sans-serif; /* Font family */
+  font-size: 36px; /* Font size */
+  /* Font weight */
+  color: #e3ca85; /* Text color */ /* Uppercase text */
+  margin-bottom: 20px; /* Bottom margin */
+  letter-spacing: 2px; /* Spacing between letters */
+  text-align: center; /* Center alignment */
+  transition: all 0.3s ease; 
+  
+}
+
+.button {
+  font-family: 'Montserrat', sans-serif; /* Font family */
+  background-color: #e3ca85; /* Button background color */
+  color: #000; /* Text color */
+  padding: 10px 20px; /* Button padding */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 16px; /* Font size */
+  font-weight: 700; /* Font weight */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: all 0.3s ease;
+ 
+}
+
+.skill{
+  width: 500px;
+  margin: 60px auto;
+  color: #fff;
+  padding: 20px;
+  box-shadow: 0 14px 28px rgba(105, 76, 76, 0.25), 0 10px 10px rgba(46, 31, 31, 0.22);
+}
+.skill li{
+  margin: 20px 0;
+  padding: 10px;
+}
+.bar{
+  background: #353b48;
+  display: block;
+  height: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.12), 0 10px 10px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+.bar:hover{
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.bar span{
+  height: 20px;
+  float: left;
+  background: linear-gradient(135deg, rgba(236, 0, 140, 1)0%, rgba(252, 103, 103, 1)100%);
+}
+.tailwindCss{
+  width: 60%;
+  animation: tailwindCss 3s;
+}
+.React{
+  width: 80%;
+  animation: React 3s;
+}
+.JavaScript{
+  width: 80%;
+  animation: JavaScript 3s;
+}
+.C{
+  width: 70%;
+  animation: C 3s;
+}
+@keyframes tailwindCss{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 60%;
+  }
+}
+@keyframes React{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 80%;
+  }
+}
+@keyframes JavaScript{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 80%;
+  }
+}
+@keyframes C{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 70%;
+  }
+}

@@ -1,0 +1,75 @@
+
+
+export const Photos = [
+    {
+        id:"0",
+        src:"https://i.pinimg.com/736x/28/9d/c1/289dc1d6dce80185f9ea00e32faeb54a.jpg",
+        url:"",
+        alt:"",
+        label:""
+    },
+    {
+        id:"1",
+        src:"https://i.pinimg.com/236x/b1/84/27/b18427670ab231ea9f706a126f081952.jpg",
+        url:"",
+        alt:"",
+        label:""
+    },
+    {
+        id:"2",
+        src:"https://i.pinimg.com/236x/a9/e2/43/a9e243ec4e01cca8c804b76839780e59.jpg",
+        url:"",
+        alt:"",
+        label:""
+    },
+    {
+        id:"3",
+        src:"https://i.pinimg.com/236x/67/87/57/678757c34b3914c29684489f67acccc5.jpg",
+        url:"",
+        alt:"",
+        label:""
+    },
+    {
+        id:"4",
+        src:"https://i.pinimg.com/474x/2a/1b/d7/2a1bd7af6d0c9c0adf59a7e71f998545.jpg",
+        url:"",
+        alt:"",
+        label:""
+    },
+    {
+        id:"5",
+        src:"https://i.pinimg.com/236x/fe/35/08/fe35085e98d6bca324bc17a5634c2d8a.jpg",
+        url:"",
+        alt:"",
+        label:""
+    },
+    {
+        id:"6",
+        src:"https://i.pinimg.com/474x/4e/37/d3/4e37d3bc2d0d532f116ab417b86a178f.jpg",
+        url:"",
+        alt:"",
+        label:""
+    },
+    {
+        id:"7",
+        src:"https://i.pinimg.com/236x/b3/64/a5/b364a56083fca23c4385630d722a4589.jpg",
+        url:"",
+        alt:"",
+        label:""
+    },
+    {
+        id:"8",
+        src:"https://i.pinimg.com/236x/22/90/61/2290611934cabc2c31342b43ab82d397.jpg",
+        url:"",
+        alt:"",
+        label:""
+    },
+    {
+        id:"9",
+        src:"./src/assets/Ironman 1.png",
+        url:"",
+        alt:"",
+        label:""
+    },
+    
+]
