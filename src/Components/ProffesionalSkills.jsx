@@ -14,9 +14,10 @@ function ProffesionalSkills() {
 
   return (
     <div className="bg-black text-white py-10 flex flex-col justify-between items-center    px-0 ">
-      <h2 className="text-4xl absolute  font-[cinzel] font-medium justify-center text-[#e3ca85]">
-        Proffesional skills
-      </h2>
+    <h2 className="text-2xl sm:text-3xl md:text-4xl absolute font-[cinzel] font-medium text-center text-[#e3ca85]">
+  Professional Skills
+</h2>
+
 
       <div className="flex flex-col md:flex-row items-center justify-center  py-16 ">
         <div className="w-2/3   md:w-1/2 flex justify-center mt-8 md:mt-0">
@@ -76,19 +77,19 @@ function ProffesionalSkills() {
           >
             <Link to="/Gallery">
           <button>
-            Garalley
+            Gallery
           </button>
           </Link>
           </StarBorder>
         </div>
       </div>
       <div className="flex justify-center mt-6 font-montserrat">
-        <p className="text-2xl  font-[cinzel] text-[#fff]">
+        <p className="text-2xl px-4 font-[cinzel] text-[#fff]">
           {" "}
           <Typewriter
             text="Creating user-centric designs that balance creativity and functionality."
-            typingSpeed={60}
-            className=" text-sm  font-[cinzel] text-[#fff]"
+            typingSpeed={150}
+            className=" text-xl  font-[cinzel] text-[#fff]"
             loop={1}
           />{" "}
         </p>

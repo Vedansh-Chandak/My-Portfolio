@@ -15,9 +15,9 @@ const Typewriter = ({ text, typingSpeed = 1000, loop = 1 }) => {
 
   return (
     <div className=" text-[#e3ca85]">
-      <h1 className=" inline-block ">
+      <h2 className=" inline-block ">
         <Typical steps={generateSteps()} loop={loop} wrapper="span" />
-      </h1>
+      </h2>
     </div>
   );
 };

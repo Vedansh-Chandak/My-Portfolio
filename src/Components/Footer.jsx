@@ -80,9 +80,9 @@ function Footer() {
           <div className="flex items-center mt-1 space-x-3">
             {/* LinkedIn */}
             <a
-              href="[Your LinkedIn]"
+              href="https://www.linkedin.com/in/vedansh-chandak-842943290/"
               className="text-white"
-              aria-label="LinkedIn"
+             
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -97,7 +97,7 @@ function Footer() {
             </a>
             {/* GitHub */}
             <a
-              href="[Your GitHub]"
+              href="https://github.com/Vedansh-Chandak"
               className="text-white"
               aria-label="GitHub"
               target="_blank"
@@ -114,9 +114,9 @@ function Footer() {
             </a>
             {/* Twitter */}
             <a
-              href="[Your Twitter]"
+              href="https://x.com/home"
               className="text-white"
-              aria-label="Twitter"
+          
               target="_blank"
               rel="noopener noreferrer"
             >

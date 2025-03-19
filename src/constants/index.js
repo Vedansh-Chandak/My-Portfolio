@@ -66,7 +66,7 @@ export const Photos = [
     },
     {
         id:"9",
-        src:"./src/assets/Ironman 1.png",
+        src:"https://i.pinimg.com/474x/23/bb/16/23bb16cca84b7229269d75478ece01b6.jpg",
         url:"",
         alt:"",
         label:""

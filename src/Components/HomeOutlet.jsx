@@ -55,18 +55,22 @@ function Home() {
           <p className="text-sm md:text-base lg:text-lg mt-2">
             I specialize in crafting innovative websites and visually captivating designs. Whether you're looking for a cutting-edge web application or a compelling graphic identity, I've got you covered.
           </p>
-          <div className="text-center md:text-left mt-6 p-4 rounded-lg shadow-md">
-  <p className="text-base sm:text-lg md:text-xl leading-relaxed">
-    Welcome to the <span className="text-blue-500">React</span> world where{" "}
-    <Typewriter
-      text="Blending creativity and functionality"
-      typingSpeed={80}
-      className="text-[#e3ca85] font-serif"
-      loop={1}
-    />{" "}
-    to build dynamic web solutions and stunning visuals!
-  </p>
-</div>
+          <div className=" justify-center mt-6 font-montserrat">
+        <p className="text-2xl  font-[cinzel] text-[#fff]">
+          {" "}<div className="justify-center w-auto">        
+             <Typewriter
+            text="Blending creativity and functionality"
+            typingSpeed={150}
+            className=" text-xl  font-[cinzel] text-[#fff]"
+            loop={1}
+          />
+          
+          </div>
+ 
+        </p>
+        <span className="text-[white] text-sm"> to build dynamic web solutions and stunning visuals!</span>
+      </div>
+
 
 
         </div>

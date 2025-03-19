@@ -57,7 +57,7 @@ function Navbar() {
           
           <div className="flex space-x-4">
             <a
-              href="https://github.com"
+              href="https://github.com/Vedansh-Chandak"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-700 dark:text-gray-200 hover:text-white transition-colors duration-300"
@@ -72,7 +72,7 @@ function Navbar() {
               </svg>
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/vedansh-chandak-842943290/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-700 dark:text-gray-200 hover:text-white transition-colors duration-300"
@@ -129,7 +129,7 @@ function Navbar() {
               {/* Social Media Icons */}
               <div className="flex space-x-4">
                 <a
-                  href="https://github.com"
+                  href="https://github.com/Vedansh-Chandak"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-700 dark:text-gray-200 hover:text-white transition-colors duration-300"
@@ -144,7 +144,7 @@ function Navbar() {
                   </svg>
                 </a>
                 <a
-                  href="https://linkedin.com"
+                  href="https://www.linkedin.com/in/vedansh-chandak-842943290/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-700 dark:text-gray-200 hover:text-white transition-colors duration-300"
